@@ -1,0 +1,88 @@
+/* Navbar base styling */
+.navbar {
+    background-color: #51086a; /* Dark background */
+    padding: 15px 20px; /* Add padding for a roomier look */
+}
+
+.navbar .navbar-brand {
+    color: #0f0cac; /* Light brand text */
+    font-size: 1.8rem; /* Larger font for brand name */
+    font-weight: bold; /* Make brand name bold */
+}
+
+.navbar .navbar-brand:hover {
+    color: #564294cc; /* Lighter color on hover */
+    text-decoration: none; /* Remove underline */
+}
+
+.navbar .nav-link {
+    color: #f8f9fa; /* Light color for links */
+    padding: 8px 15px; /* Add some padding */
+    font-size: 1.1rem; /* Increase font size for readability */
+}
+
+.navbar .nav-link:hover {
+    color: #564294cc; /* Golden hover color */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.navbar .nav-link.active {
+    color: #071776cc; /* Highlight active link */
+    font-weight: bold; /* Make active link bold */
+}
+
+/* Styling for the logout button */
+.navbar .btn-success {
+    background-color: #28a745; /* Green background for logout */
+    border: none; /* Remove border */
+    padding: 8px 15px; /* Add padding */
+    font-size: 1rem; /* Font size for consistency */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.navbar .btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Responsive toggle icon */
+.navbar-toggler {
+    border-color: #07cdff; /* Add color to the navbar toggle border */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28145, 158, 171, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Add a subtle shadow to navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Dropdown Button Styling */
+.navbar .btn-primary.dropdown-toggle {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for the dropdown button */
+.navbar .btn-primary.dropdown-toggle:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Style the dropdown items */
+.dropdown-menu .dropdown-item {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+    border-radius: 4px;
+}

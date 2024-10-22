@@ -1,0 +1,86 @@
+/* Add background to the entire page */
+.DummyPage-body {
+    background-color: #f0f2f5; /* Light grey background (can be any color) */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Ensures consistent font across the page */
+    height: 100%;
+}
+
+/* Optional: background image */
+.DummyPage-body {
+    background-image: url('https://img.freepik.com/free-photo/blue-background-with-blue-background-that-says-word-it_1340-36611.jpg');
+    background-size: cover; /* Ensures the image covers the whole page */
+    background-position: center;
+    background-attachment: fixed; /* Keeps the image fixed during scroll */
+}
+
+/* Optional: background gradient */
+body {
+    background: linear-gradient(to right, #fdfdfd, #fbfbfc); /* Example gradient */
+}
+
+/* Profile container with some padding for spacing */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: white; /* Add white background for content */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Profile photo and info styles remain the same */
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+}
+
+.profile-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile-email,
+.profile-phone,
+.profile-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Responsive layout for larger screens */
+@media (min-width: 768px) {
+    .profile-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .profile-photo {
+        margin-right: 50px;
+        margin-bottom: 0;
+    }
+
+    .profile-info {
+        text-align: left;
+    }
+}

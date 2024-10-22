@@ -1,0 +1,45 @@
+.card {
+    width: 300px; /* Set specific width */
+    height: auto; /* Set specific height */
+    border: none; /* Remove default border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Prevents overflow from rounded corners */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.card-img-top {
+    width: 300px; /* Full width */
+    height: 350px; /* Maintain aspect ratio */
+}
+
+.card-body {
+    padding: 10px; /* Increased padding */
+    background-color: #3cb7a0; /* Light background color */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Larger title */
+    font-weight: bold; /* Bold text */
+    color: #333; /* Dark text color */
+}
+
+.card-text {
+    font-size: 1rem; /* Default size for text */
+    color: #020000; /* Grey color for text */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border-color: #073362; /* Match button border to color */
+    transition: background-color 0.3s; /* Smooth transition for button */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker color on hover */
+    border-color: #0056b3; /* Match border to darker color */
+}
